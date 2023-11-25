@@ -1402,6 +1402,7 @@ FW_VERSIONS = {
   },
   CAR.KIA_FORTE: {
     (Ecu.eps, 0x7D4, None): [
+      b'\xf1\x00BDm MDPS C A.01 1.01 56310M7800\x00 4BPMC101',
       b'\xf1\x00BD  MDPS C 1.00 1.02 56310-XX000 4BD2C102',
       b'\xf1\x00BD  MDPS C 1.00 1.08 56310/M6300 4BDDC108',
       b'\xf1\x00BD  MDPS C 1.00 1.08 56310M6300\x00 4BDDC108',
@@ -1421,6 +1422,8 @@ FW_VERSIONS = {
       b'\xf1\x81616F2051\x00\x00\x00\x00\x00\x00\x00\x00',
     ],
     (Ecu.abs, 0x7d1, None): [
+      b'\xf1\x00\x00\x00\x00\x00\x00\x00',
+      b'\xf1\x8758900-M7AA0 \xf1\x816VORAC00034.ELF\xf1\x00\x00\x00\x00\x00\x00\x00',
       b'\xf1\x816VGRAH00018.ELF\xf1\x00\x00\x00\x00\x00\x00\x00',
       b'\xf1\x8758900-M7AB0 \xf1\x816VQRAD00127.ELF\xf1\x00\x00\x00\x00\x00\x00\x00',
     ],
